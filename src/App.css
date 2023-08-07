@@ -8,6 +8,27 @@
   align-items: center;
 }
 
+@media (max-width: 740px) {
+  #root {
+    padding: 1rem; /* Ajusta el padding para un mejor espacio en dispositivos móviles */
+  }
+
+  .card {
+    width: 100%; /* Ocupa todo el ancho disponible en dispositivos móviles */
+    max-width: 100%; /* Elimina la restricción de ancho máximo en dispositivos móviles */
+  }
+
+  .card h2 {
+    font-size: 20px; /* Reduce el tamaño de fuente para títulos en dispositivos móviles */
+    margin-right: 0; /* Elimina el margen derecho para títulos en dispositivos móviles */
+  }
+
+  .nav-link {
+    font-size: 20px; /* Reduce el tamaño de fuente de los enlaces de navegación en dispositivos móviles */
+    margin-right: 10px; /* Reduce el margen derecho de los enlaces de navegación en dispositivos móviles */
+  }
+}
+
 .card {
   height: 500px;
   width: 300px;
